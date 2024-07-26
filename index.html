@@ -17,8 +17,8 @@
   <!-- aos cdn -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- stylesheet -->
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="Formatted code/formatted.css">
+  <link rel="stylesheet" href="style.css" />
   <!-- google fonts-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
@@ -115,7 +115,10 @@
     <section class="landing-page-container" id="home">
       <div class="blob"></div>
 
-      <div class="text-content" id="text">
+      <div style="@media  (max-width: 1200px) {
+        .text-content{
+           margin-top: -35vh;
+        }}" class="text-content" id="text">
         <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
           <p class="jello">H</p>
           <p class="jello">e</p>
